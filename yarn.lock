@@ -3510,14 +3510,11 @@ function-bind@^1.0.2, function-bind@^1.1.1:
   resolved "https://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
 
-<<<<<<< HEAD
 fuse.js@^3.4.5:
   version "3.4.5"
   resolved "https://registry.npm.taobao.org/fuse.js/download/fuse.js-3.4.5.tgz#8954fb43f9729bd5dbcb8c08f251db552595a7a6"
   integrity sha1-iVT7Q/lym9Xby4wI8lHbVSWVp6Y=
 
-=======
->>>>>>> 140c25d91070f0f8f26aec89879138987bae8f17
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.npm.taobao.org/gauge/download/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -6855,14 +6852,11 @@ schema-utils@^2.0.0, schema-utils@^2.4.1:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
 
-<<<<<<< HEAD
 screenfull@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npm.taobao.org/screenfull/download/screenfull-5.0.0.tgz#5c2010c0e84fd4157bf852877698f90b8cbe96f6"
   integrity sha1-XCAQwOhP1BV7+FKHdpj5C4y+lvY=
 
-=======
->>>>>>> 140c25d91070f0f8f26aec89879138987bae8f17
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.npm.taobao.org/scss-tokenizer/download/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
