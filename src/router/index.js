@@ -21,7 +21,7 @@ export const constantRoutes = [
 	},
 	{
 		path: '/',
-		component: () => import('@/views/home/index')
+		component: () => import('@/layout/index')
 
 	},
 	{ path: '*', redirect: '/404', hidden: true }
