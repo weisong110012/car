@@ -1,9 +1,8 @@
 <template>
 	<el-container class="app-wrapper">
-		
-		<div class='header'>
+		<el-header class='header' style='height: 40px;'>
 			
-		</div>
+		</el-header>
 		<el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" >
 			<el-submenu index="1">
 				<template slot="title">工作管理</template>
@@ -39,7 +38,7 @@
 				</el-menu>
 			</el-aside>
 			<el-main>
-			22
+			
 			</el-main>
 		</el-container>
 		<!-- <el-footer class='footer'></el-footer> -->
@@ -69,7 +68,7 @@
 		.header {
 			background: rgb(213,215,234);
 			padding: 0px;
-			height: 40px;
+			
 		}
 
 		.header-logo {
