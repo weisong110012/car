@@ -1,28 +1,23 @@
 <template>
 	<el-container class="app-wrapper">
-		<el-header class='header'>
-			<el-container>
-				<el-aside class='header-logo'>
-					汽车项目
-				</el-aside>
-				<el-main class='header-navbar'>
-					<el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" >
-						<el-submenu index="1">
-							<template slot="title">工作管理</template>
-							<el-menu-item index="1-1">读取项目</el-menu-item>
-							<el-menu-item index="1-2">提交项目</el-menu-item>
-						</el-submenu>
-						<el-menu-item index="2">项目管理</el-menu-item>
-						<el-submenu index="3">
-							<template slot="title">权限设置</template>
-							<el-menu-item index="3-1">用户管理</el-menu-item>
-							<el-menu-item index="3-2">角色管理</el-menu-item>
-						</el-submenu>
-						<el-menu-item index="4">系统设置</el-menu-item>
-					</el-menu>
-				</el-main>
-			</el-container>
-		</el-header>
+		
+		<div class='header'>
+			
+		</div>
+		<el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" >
+			<el-submenu index="1">
+				<template slot="title">工作管理</template>
+				<el-menu-item index="1-1">读取项目</el-menu-item>
+				<el-menu-item index="1-2">提交项目</el-menu-item>
+			</el-submenu>
+			<el-menu-item index="2">项目管理</el-menu-item>
+			<el-submenu index="3">
+				<template slot="title">权限设置</template>
+				<el-menu-item index="3-1">用户管理</el-menu-item>
+				<el-menu-item index="3-2">角色管理</el-menu-item>
+			</el-submenu>
+			<el-menu-item index="4">系统设置</el-menu-item>
+		</el-menu>
 		<el-container>
 			<el-aside class='siderbar'>
 				<el-menu default-active="2" class="el-menu-vertical-demo" background-color="#545c64" text-color="#fff"
@@ -44,7 +39,7 @@
 				</el-menu>
 			</el-aside>
 			<el-main>
-			
+			22
 			</el-main>
 		</el-container>
 		<!-- <el-footer class='footer'></el-footer> -->
@@ -72,8 +67,9 @@
 		}
 
 		.header {
-			background: #fff;
+			background: rgb(213,215,234);
 			padding: 0px;
+			height: 40px;
 		}
 
 		.header-logo {
