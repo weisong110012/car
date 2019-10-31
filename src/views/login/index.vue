@@ -3,32 +3,37 @@
 		<el-form  ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
 
 			<div class="title-container">
-				<h3 class="title">汽车项目登录</h3>
+				<h3 class="title">
+					 {{ $t('login.title') }}
+					<lang-select class="set-language" />
+				</h3>
 			</div>
 
 			<el-form-item prop="username">
 				<span class="iconfont icon-icon- svg-container">
 				</span>
-				<el-input v-model="loginForm.username" placeholder="请输入账户" />
+				<el-input v-model="loginForm.username" :placeholder="$t('login.username')" />
 			</el-form-item>
 			<el-tooltip manual>
 				<el-form-item prop="password">
 					<span class="iconfont icon-mima svg-container">
 					</span>
-					<el-input :type="pawType" v-model="loginForm.password" ref='pawType' />
+					<el-input :type="pawType" v-model="loginForm.password" ref='pawType' :placeholder="$t('login.password')"/>
 					<span :class="pawType==='password'?'icon-biyan':'icon-yanjing-tianchong'" class="iconfont  show-pwd" @click="showPwd">
 					</span>
 				</el-form-item>
 			</el-tooltip>
-			<el-button :loading="loading" type="primary"  @click.native.prevent='handleLogin' style="width:100%;margin-bottom:30px;">登录</el-button>
+			<el-button :loading="loading" type="primary"  @click.native.prevent='handleLogin' style="width:100%;margin-bottom:30px;">{{ $t('login.logIn') }}</el-button>
 		</el-form>
 	</div>
 </template>
 
 <script>
 	import { validEmail } from '@/utils/validate'
+	import LangSelect from '@/components/LangSelect'
 	export default {
 		name: 'Login',
+		components: { LangSelect},
 		data() {
 			const validateUsername = (rule, value, callback) => {
 			  if (!validEmail(value)) {

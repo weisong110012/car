@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-<<<<<<< HEAD
+
 /* Layout */
 import Layout from '@/layout'
-=======
 
->>>>>>> 140c25d91070f0f8f26aec89879138987bae8f17
 Vue.use(Router)
 
 export const constantRoutes = [
@@ -25,7 +23,6 @@ export const constantRoutes = [
 	  hidden: true
 	},
 	{
-<<<<<<< HEAD
 	  path: '/',
 	  component: Layout,
 	  redirect: '/home',
@@ -37,10 +34,6 @@ export const constantRoutes = [
 	      meta: { title: '首页', icon: 'dashboard', affix: true }
 	    }
 	  ]
-=======
-		path: '/',
-		component: () => import('@/views/home/index')
->>>>>>> 140c25d91070f0f8f26aec89879138987bae8f17
 	},
 	{ path: '*', redirect: '/404', hidden: true }
 ]

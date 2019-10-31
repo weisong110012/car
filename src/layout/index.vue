@@ -6,8 +6,7 @@
 					汽车项目
 				</el-aside>
 				<el-main class='header-navbar'>
-					<el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" 
-					 >
+					<el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" >
 						<el-submenu index="1">
 							<template slot="title">工作管理</template>
 							<el-menu-item index="1-1">读取项目</el-menu-item>
